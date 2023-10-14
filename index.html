@@ -10,7 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="stylesheet" href="./portfolio.css"/>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -69,7 +69,7 @@
               <div>
                 <nav id="nav-main" class="navbar nav-menu">
                   <ul class="nav flex-column nav1">
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive">
                       <a
                         class="nav-link active"
                         aria-current="page"
@@ -77,28 +77,28 @@
                         ><i class="bx bx-home"></i><span class="ms-2">Home</span></a
                       >
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#About"
+                    <li class="nav-item" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive">
+                      <a class="nav-link" href="#About" 
                         ><i class="bx bx-user"></i><span class="ms-2">About</span></a
                       >
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive">
                       <a class="nav-link" href="#Projects"
                         ><i class="bx bx-file-blank"></i><span class="ms-2">Projects</span></a
                       >
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="list-item-3"
+                    <li class="nav-item" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive">
+                      <a class="nav-link" href="#Work"
                         ><i class="bx bx-briefcase"></i
-                        ><span class="ms-2">Intership</span></a
+                        ><span class="ms-2">Work</span></a
                       >
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive">
                       <a class="nav-link" href="list-item-4"
                         ><i class="bx bxs-school"></i><span class="ms-2">Education</span></a
                       >
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive">
                       <a class="nav-link" href="list-item-5"
                         ><i class="bx bx-envelope"></i><span class="ms-2">Contact</span></a
                       >
@@ -112,7 +112,7 @@
       </div>
       <!-- --------End of Offcanvas------------------- -->
       <!-- ---------Start of main body section------------- -->
-      <main data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <main data-bs-spy="scroll" data-bs-target="#nav-main" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
         <!-- --------------First section------------------ -->
         <section id="Home" class="s1 d-flex">
           <div class="container s1d">
@@ -128,10 +128,10 @@
                   <a href="https://www.linkedin.com/in/sreehari-t-k-a32815221/"><i class='bx bxl-linkedin'></i></a> 
                 </div>
                 <div class="d2b mt-4">
-                  <a href="" class="btn btn-secondary">
+                  <a href="#About" class="btn btn-secondary">
                     <span><i class="fa fa-user me-2"></i>More About Me</span>
                   </a>
-                  <a href="" class="btn btn-secondary ms-3 grn">
+                  <a href="#Projects" class="btn btn-secondary ms-3 grn">
                     <span><i class="fa fa-rocket me-2"></i>My Projects</span>
                   </a>
                 </div>
@@ -204,10 +204,87 @@
         </section>
         <!-- ----------------------------end of 2nd section------------------------------------------------ -->
         <!-------------------------------3rd section----------------------------------------------------->
-        <section id="Projects" class="s2 pt-5">
+        <section id="Projects" class="s3 pt-5">
+          <div class="container">
+            <h1 class="s3h text-center mb-4">Proj<span>ects</span></h1>
+            <div class="container  mt-5">
+              <div class="row p1 mb-5">
+                <div class="col-lg-6">
+                  <h2>Mess manager for hostel</h2>
+                  <p>Developed a mobile application using flutter to manage hostel and private mess</p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-lg-6 ">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Used Figma for design and workflow</li>
+                    <li class="list-group-item">Used Flutter and Andriod SDK to work on UI and Connectivity</li>
+                    <li class="list-group-item">Used MongoDB as database</li>
+                    <li class="list-group-item">Used Firebase to host the database</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row p2 pb-5">
+                <div class="col-lg-6">
+                  <h2>Text to Art Generation</h2>
+                  <p>Converted text into artistic images using Machine learning methods VQGan and CLIP</p>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-lg-6">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Used CLIP as a library to store and process the input values and trained data for words</li>
+                    <li class="list-group-item">Used VQgan to compare the inputs with images stored as pre-trained data</li>
+                    <li class="list-group-item">Used Python Libraries to pull VQgan and CLIP functions</li>
+                    <li class="list-group-item">Used HTML, CSS and JS to build a webpage for hosting the output</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ------------------------------------------end of 3rd section-------------------------------------------- -->
+        <!-- ------------------------------------------section 4----------------------------------------------- -->
+        <section id="Work" class="s4 pt-5">
+          <div class="container">
+            <h1 class="sh4 text-center mb-5">Work <span>Experience</span></h1>
+            <div class="container w-75 mt-5 pt-5">
+              <div class="row g-4 w1 mb-5">
+                <div class="col-lg-4">
+                  <h2 class="mb-3">Django developer</h2>
+                  <h3>Baaptra</h3>
+                  <time datetime="2022-06-06TP18D"> Joined on June 6th with a duration of 18 days</time>
+                </div>
+                <div class="col-lg-8">
+                  <p class="mb-0 pt-2">An intership done at baaptra on bulding web applications with django framework</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Created a web application with login credentials</li>
+                    <li class="list-group-item">Responsible for front-end and connectivity</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row g-4 w2 pb-5">
+                <div class="col-lg-4">
+                  <h2 class="mb-3">Sponsorship Lead-cum-Technical team member</h2>
+                  <h3>SEDS CUSAT</h3>
+                  <time datetime="2022-06-06TP30D"> Joined on spetember 10th with a duration of 30 days</time>
+                </div>
+                <div class="col-lg-8">
+                  <p class="mb-0 pt-2">Sponsorship runs for the events and responsible for technical management</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Achieved multiple Sponsorship for the event to take place.</li>
+                    <li class="list-group-item">Maintained and grouped the Sponsorship team members to cover different areas.</li>
+                    <li class="list-group-item">Maintained techninal equipments on stage</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ----------------------------------end of 4th section---------------------------------------- -->
+        <!-- ----------------------------------section 5----------------------------------------- -->
+        <section id="Education" class="s5 pt-5">
           
         </section>
       </main>
     </div>
-  </body>
+  </body> 
 </html>
