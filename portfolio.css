@@ -1,0 +1,268 @@
+/* global */
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #b6b6b6;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/* NAVBAR */
+.h1{
+    z-index: 1024;
+    position: fixed;
+    left: 10px;
+    top:10px;
+}
+
+.h1 button{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    padding: 5px 0 0;
+    border: none;
+    background-color: #64bd00;
+}
+
+.h1 button span{
+    height: 2px;
+    width: 26px;
+    background: #ffffff;
+    display: block;
+    margin: 0 auto 6px
+}
+
+aside{
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    background-color: #2e3135;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 100vh;
+    z-index: 1024;
+}
+
+.offcanvas-lg.offcanvas-start{
+    width: 300px;
+}
+
+.a1{
+    flex-direction: column;
+}
+
+.nav{
+    width: 300px;
+    height: inherit;   
+}
+
+.nav-menu{
+    padding: 30px 0 0 0;
+}
+
+.nav-menu *{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu>ul>li{
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav1 a{
+    display: flex;
+    align-items: center;
+    color: #fafafa;
+    padding: 12px 53px;
+    margin-bottom: 8px;
+    font-size: 21px;
+}
+
+.nav1 a i{
+    font-size: 25px;
+}
+
+.nav1 li a:hover{
+    color: #64bd00 !important;
+}
+
+.nav1 .active{
+    color: #64bd00 !important;
+}
+
+/* main */
+
+main{
+    padding-left: 300px;
+}
+
+/* S1 */
+
+.s1{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.79)), url("./Images/backgd.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center  ;
+    position: relative;
+    min-height: 100vh;
+    padding: 60px 0;
+    align-items: center;
+}
+
+.s1d{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.s1dr{
+    position: relative;
+    z-index: 99;
+    
+}
+
+.d1{
+    display: flex;
+    justify-content: end;
+}
+
+.d2{
+    display: flex;
+    flex-direction: column;
+}
+
+.d12 img{
+    max-width: 300px;
+    margin: 0 auto !important   ;
+    border-radius: 50%;
+    border: 10px solid rgba(255,255,255,0.1);
+}
+
+.d2p{
+    color: #e5e5e5;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+}
+
+.d2p span{
+    color: #64bd00;
+}
+
+.d2p {
+    text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+
+@keyframes typing {
+    0.0000%, 27.3488% { content: ""; }
+    1.1395%, 26.2093% { content: "s"; }
+    2.2791%, 25.0698% { content: "sr"; }
+    3.4186%, 23.9302% { content: "sree"; }
+    4.5581%, 22.7907% { content: "sreeh"; }
+    5.6977%, 21.6512% { content: "sreeha"; }
+    6.8372%, 20.5116% { content: "sreehar"; }
+    7.9767%, 19.3721% { content: "sreehari"; }
+    9.1163%, 18.2326% { content: "sreehari T"; }
+    10.2558%, 17.0930% { content: "sreehari T K"; }
+  
+    30.7674%, 55.2791% { content: ""; }
+    31.9070%, 54.1395% { content: "a"; }
+    33.0465%, 53.0000% { content: "a d"; }
+    34.1860%, 51.8605% { content: "a de"; }
+    35.3256%, 50.7209% { content: "a des"; }
+    36.4651%, 49.5814% { content: "a desi"; }
+    37.6047%, 48.4419% { content: "a desig"; }
+    38.7441%, 47.3027% { content: "a design"; }
+    39.8838%, 46.1635% { content: "a designe"; }
+    40.9232%, 45.0243% { content: "a designer"; }
+
+    64.6977%, 93.2093% { content: ""; }
+    65.8372%, 92.0698% { content: "a"; }
+    66.9767%, 90.9302% { content: "a d"; }
+    68.1163%, 89.7907% { content: "a de"; }
+    69.2558%, 88.6512% { content: "a dev"; }
+    70.3953%, 87.5116% { content: "a deve"; }
+    71.5349%, 86.3721% { content: "a devel"; }
+    72.6744%, 85.2326% { content: "a develo"; }
+    73.8139%, 84.0931% { content: "a develop"; }
+    74.9534%, 82.9536% { content: "a develope"; }
+    76.0929%, 81.8141% { content: "a developer"; }
+  
+    /* 78.6279%, 96.8605% { content: ""; }
+    79.7674%, 95.7209% { content: "h"; }
+    80.9070%, 94.5814% { content: "hu"; }
+    82.0465%, 93.4419% { content: "hum"; }
+    83.1860%, 92.3023% { content: "huma"; }
+    84.3256%, 91.1628% { content: "human"; } */
+}
+  
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+  
+.typewriter {
+    --caret: currentcolor;
+}
+  
+.typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+}
+  
+.typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+}
+  
+.typewriter.thick::after {
+    border-right: 1ch solid var(--caret);
+}
+  
+.typewriter.nocaret::after {
+    border-right: 0;
+}
+  
+  
+@media (prefers-reduced-motion) {
+    .typewriter::after {
+      animation: none;
+}
+    
+@keyframes sequencePopup {
+      0%, 100% { content: "sreehari T K"; }
+      50% { content: "a designer"; }
+      100% { content: "a developer"; }
+      /* 75% { content: "human"; } */
+}
+  
+.typewriter::before {
+      content: "sreehari T K";
+      animation: sequencePopup 12s linear infinite;
+    }
+}
+
+
+
+/* Responsive */
+
+@media (max-width:991px) {
+    main{
+        padding-left: 0;
+    }
+}
