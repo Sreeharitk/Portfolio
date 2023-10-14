@@ -85,7 +85,7 @@ aside{
 .nav1 a{
     display: flex;
     align-items: center;
-    color: #fafafa;
+    color: #fafafa !important;
     padding: 12px 53px;
     margin-bottom: 8px;
     font-size: 21px;
@@ -257,9 +257,71 @@ main{
     }
 }
 
+.d2 p{
+    color: #ffffff;
+    max-width: 450px;
+    letter-spacing: 0.2px;
+}
 
+.slinks a{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 20px 20px 0;
+}
 
-/* Responsive */
+.d2b a span{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.d2b .grn{
+    background-color: #64bd00;
+    border: #64bd00;
+}
+
+.d2b .grn:hover{
+    background-color: #325c02;
+}
+
+/* ---------------S2------------------------ */
+
+.s2{
+    background-color: #2e3135;
+    border-left: 2px solid rgb(24, 23, 23);
+}
+
+.s2h{
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.s2h span{
+    color: #64bd00;
+}
+
+.s2rh{
+    color: #fafafa;
+}
+
+.s2rh span{
+    color: #64bd00;
+}
+
+.s2rp{
+    color:#ffffff;
+    max-width: 800px;
+    letter-spacing: 0.5px;
+}
+
+.progress-bar{
+    background-color: #64bd00  !important;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* -----------------Responsive--------------------- */
 
 @media (max-width:991px) {
     main{
