@@ -768,6 +768,13 @@ main{
     }       
 }
 
+@media (max-width:990px) {
+    .srd2{
+        margin-top: 20px;
+    }
+}
+
+
 /* --------------------S4--------------------- */
 @media (max-width:580px) {
     .sh4d1{
