@@ -356,18 +356,19 @@ main{
     max-width: 450px;
 }
 
-.p1 p{
+.p1 h4{
     color:#ffffff;
-    max-width: 800px;
+    max-width: 700px;
     letter-spacing: 0.5px;
     font-size: 16px;
 }
 
 .p1 ul li{
     background-color: #26282b;
-    background: linear-gradient(to left, #00C853, #B2FF59);
+    color: #fafafa;
+    /* background: linear-gradient(to left, #00C853, #B2FF59);
     -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;  */
     padding-left: 0;
     border-bottom-style: solid;
     border-bottom-width: 2px !important;
@@ -382,7 +383,7 @@ main{
     color: #64bd00;
 }
 
-.p2 p{
+.p2 h4{
     color:#ffffff;
     max-width: 800px;
     letter-spacing: 0.5px;
@@ -391,9 +392,10 @@ main{
 
 .p2 ul li{
     background-color: #26282b;
-    background: linear-gradient(to left, #00C853, #B2FF59);
+    color: #fafafa;
+    /* background: linear-gradient(to left, #00C853, #B2FF59);
     -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text; 
+    -webkit-background-clip: text;  */
     padding-left: 0;
     border-bottom-style: solid;
     border-bottom-width: 2px !important;
@@ -595,7 +597,7 @@ main{
     margin-left: 0.5rem;
 }
 
-.c1-content h3{
+.c1-content h4{
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -719,7 +721,7 @@ main{
         margin-top: 10px !important;
     }
     .d2p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 
