@@ -591,6 +591,10 @@ main{
     transition: 0.5s;
 }
 
+.c1-content{
+    margin-left: 0.5rem;
+}
+
 .c1-content h3{
     text-transform: uppercase;
     color: #ffffff;
@@ -673,6 +677,15 @@ main{
     }    
 }
 
+@media (max-width:575px) {
+    .h1 button{
+        background-color: #65bd005e ;
+    }
+    .h1 button span{
+        color: #ffffff4f;
+    }
+}
+
 
 /* --------------S1----------------- */
 @media (max-width:1140px) {
@@ -753,4 +766,61 @@ main{
     .s2rp p{
         letter-spacing: 0;
     }       
+}
+
+/* --------------------S4--------------------- */
+@media (max-width:580px) {
+    .sh4d1{
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+}
+@media (max-width:990px) {
+    .w1 .col-lg-8{
+        margin-top: 7px;
+    }
+}
+
+
+/* -------------------S5---------------------------------- */
+@media (max-width:765px) {
+    .s5hd1{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:500px) {
+    .s5hd1{
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width:420px) {
+    .education-items h2{
+        font-size: 18px;
+    }
+    .education-icons{
+        font-size: 14px;
+    }
+}
+
+/* ---------------------S6------------------------------- */
+@media (max-width:1330px) {
+    .c1-content{
+        margin-left: 1.5rem !important;
+    }
+}
+
+@media (max-width:575px) {
+    .c1-icon i{
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:400px) {
+    .c1-items{
+        padding-left: 10px !important
+    }
 }
